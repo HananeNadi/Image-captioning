@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uploaded Image</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Generated Caption</h1>
+        <div class="img-container">
+            <img src="{{ url_for('static', filename='uploads/' + filename) }}" alt="Uploaded Image" class="img-fluid">
+        </div>
+        <div class="description-container">
+            <p><h1>{{ description }}</h1></p>
+        </div>
+        <a href="/" class="btn">Upload another image</a>
+    </div>
+</body>
+</html>
