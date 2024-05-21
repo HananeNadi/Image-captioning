@@ -30,7 +30,7 @@ The Flickr8K dataset is used for training the image caption generator. It contai
 
 ## Tools and Libraries Used
 
-- **Kaggle Platform:** For dataset hosting and competition environment.
+- **Kaggle Platform:** For dataset.
 - **Keras:** High-level neural networks API.
 - **TensorFlow:** End-to-end open-source platform for machine learning.
 -**Pre-trained Xception Model:** For feature extraction from images.
