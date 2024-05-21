@@ -23,8 +23,9 @@ A convolutional neural network (CNN) extracts features from the input image. The
 
 **Text Generation**
 The feature vector is fed into a recurrent neural network, specifically an LSTM network. The LSTM generates captions word by word, starting with a start token and ending with an end token. Words are produced sequentially with the help of a softmax layer.
-- In the vision understanding part, we start with a convolutional neural network (CNN) to extract features from the input image. These features are then transformed into a feature vector through a linear layer.
-Dataset Description
+
+
+## Dataset Description
 The Flickr8K dataset is used for training the image caption generator. It contains 8091 images, each paired with five different captions. Images are stored in the Flicker8k_Dataset folder, and captions are stored in the Flickr_8k_text folder.
 
 ## Tools and Libraries Used
